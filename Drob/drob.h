@@ -19,5 +19,15 @@ public:
 	drob operator-=(const drob &obj);
 	drob operator*=(const drob &obj);
 	drob operator/=(const drob &obj);
-
 };
+
+drob operator+(const drob&a, const drob&b);
+drob operator-(const drob&a, const drob&b);
+drob operator*(const drob&a, const drob&b);
+drob operator/(const drob&a, const drob&b);
+bool operator>(const drob&a, const drob&b);
+bool operator<=(const drob&a, const drob&b);
+bool operator<(const drob&a, const drob&b);
+bool operator>=(const drob&a, const drob&b);
+bool operator==(const drob&a, const drob&b);
+bool operator!=(const drob&a, const drob&b);
