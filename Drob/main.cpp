@@ -2,20 +2,12 @@
 
 
 void main()
-{
-	drob a(1, 2);
-	drob b(1, 4);
-	a += b;
-	a.print();
-
-	drob c;
-	c = a + b;
-	c.print();
-	a.print();
-
-	bool res;
-	res = a != b;
-	cout << res << endl;
+{	
+	drob a(3,4);
+	drob b;	
+	b = a ^ -5;
+	cout << b << " " << a;
+	
 
 	system("pause");
 }
